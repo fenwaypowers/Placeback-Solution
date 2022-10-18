@@ -9,7 +9,7 @@ Developed by Fenway Powers and Hanji Xu in 2021.
 * You will also need a program that can view .xlsx files, such as:
 * [LibreOffice](https://www.libreoffice.org/)
 
-##Example Use
+## Example Use: 
 
 To run, you can simply execute `python3 placeback.py`.
 
