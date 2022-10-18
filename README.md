@@ -6,8 +6,6 @@ Developed by Fenway Powers and Hanji Xu in 2021.
 
 Placeback is a lot easier to explain by showing the process, so here is a video of the solution for x = 7:
 
-<https://github.com/fenwaypowers/Placeback-Solution/raw/main/placeback.mp4>
-
 ## Prerequisites: 
 
 * [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
