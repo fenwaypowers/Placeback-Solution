@@ -25,4 +25,4 @@ Custom arguments:
 * To create a spreadsheet with all solutions up to the integer input: `-o [file.xlsx]`
 * Example: `python3 placeback.py 500 -o placeback500.xlsx`
 
-You can also run the code directly in [replit.com](https://replit.com/@FenwayPowers/Placeback-Solution)
+You can also run the code directly in [replit.com](https://replit.com/@FenwayPowers/Placeback-Solution).
