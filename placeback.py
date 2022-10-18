@@ -74,7 +74,7 @@ outputfile = "placeback.xlsx"
 
 if len(sys.argv) == 1:
   print('''No arguments given, running Solution mode with default value 7...
-  To get help info, run "python3 main.py -help".
+  To get help info, run "python3 placeback.py -help".
   ''')
 elif len(sys.argv) > 1:
   for i in range(1, len(sys.argv)):
@@ -87,11 +87,11 @@ elif len(sys.argv) > 1:
 
       Custom arguments:
       you may specify the integer by simply including an integer in your parameters.
-        Exmaple: "python3 main.py 7"
+        Exmaple: "python3 placeback.py 7"
 
       To create a spreadsheet with all solutions up to the integer input:
       "-o [file.xlsx]"
-        Example: "python3 main.py 500 -o placeback500.xlsx"
+        Example: "python3 placeback.py 500 -o placeback500.xlsx"
       ''')
       sys.exit(0)
     elif sys.argv[i].isdecimal():
