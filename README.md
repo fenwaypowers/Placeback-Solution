@@ -8,6 +8,10 @@ Placeback is a lot easier to explain by showing the process, so here is a video 
 
 <https://user-images.githubusercontent.com/31604245/196319717-ca665d69-82c6-457f-87ac-68b4d6072e5f.mp4>
 
+Placeback-Solution can give you the correct list of numbers for any integer.
+
+It can also output each solution and its "mapping" list to an Excel Spreadsheet file. This is mainly used for looking at patterns in the solutions.
+
 ## Prerequisites: 
 
 * [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
