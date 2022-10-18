@@ -1,8 +1,15 @@
 from openpyxl import Workbook
 import sys
+'''
+File: placeback.py
+Creator: Fenway Powers and Hanji Xu
+Created: 2021
+Updated: Mon Oct 17 21:23:57 2021
+'''
 
 workbook = Workbook()
 sheet = workbook.active
+
 
 def placeback(sequence):
   new = []
@@ -92,7 +99,8 @@ elif len(sys.argv) > 1:
     elif sys.argv[i] == "-o":
       excel_mode = True
       solution_mode = False
-      if sys.argv[i + 1].endswith(".xlsx") and len(sys.argv[i + 1]) > 5 and "?" not in sys.argv[i + 1]:
+      if sys.argv[i + 1].endswith(".xlsx") and len(
+          sys.argv[i + 1]) > 5 and "?" not in sys.argv[i + 1]:
         outputfile = sys.argv[i + 1]
       else:
         print("Error: invalid filename or extension.\nExiting...")
