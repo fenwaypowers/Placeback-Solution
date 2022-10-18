@@ -1,7 +1,10 @@
 # Placeback-Solution
 
 Placeback-Solution is a program that solves placeback for any integer.
+
 Developed by Fenway Powers and Hanji Xu in 2021.
+
+
 
 ## Prerequisites: 
 
