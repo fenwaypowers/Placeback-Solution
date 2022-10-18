@@ -20,3 +20,5 @@ you may specify the integer by simply including an integer in your parameters.
 To create a spreadsheet with all solutions up to the integer input:
 `-o [file.xlsx]`
   Example: `python3 main.py 500 -o placeback500.xlsx`
+
+You can also run the code directly in [replit.com](https://replit.com/@FenwayPowers/Placeback-Solution)
